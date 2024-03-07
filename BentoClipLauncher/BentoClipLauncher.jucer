@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="iIorc3" name="BentoClipLauncher" projectType="guiapp" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="1" displaySplashScreen="1" jucerFormatVersion="1"
+              companyWebsite="www.terioto.com" companyEmail="halil@terioto.com"
+              cppLanguageStandard="20" defines="JUCE_MODAL_LOOPS_PERMITTED=1"
+              companyName="terioto" binaryDataNamespace="DemoBinaryData">
   <MAINGROUP id="bHxnbp" name="BentoClipLauncher">
     <GROUP id="{63CD333D-0C26-E600-6CEB-981DA126BC16}" name="Source">
+      <GROUP id="{B8929849-600B-8C18-FD16-7552AFCD4814}" name="common">
+        <FILE id="ypb5Fl" name="BinaryData.cpp" compile="1" resource="0" file="Source/common/BinaryData.cpp"/>
+        <FILE id="NYJG7s" name="BinaryData.h" compile="0" resource="0" file="Source/common/BinaryData.h"/>
+        <FILE id="YSJu53" name="Utilities.h" compile="0" resource="0" file="Source/common/Utilities.h"/>
+      </GROUP>
+      <FILE id="UWuq6d" name="BentoClipLauncher.h" compile="0" resource="0"
+            file="Source/BentoClipLauncher.h"/>
       <FILE id="llI04v" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
       <FILE id="aiJd1r" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="Uu59xZ" name="MainComponent.cpp" compile="1" resource="0"
