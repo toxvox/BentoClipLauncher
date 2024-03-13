@@ -379,8 +379,6 @@ namespace ClipHelpers
 
 
 
-
-
 } // namespace ClipHelpers
 
 
